@@ -1,0 +1,89 @@
+lenovo  bjsubway  ➜ (master)  ♥ 14:24  ./target/debug/bjsubway.exe update
+updated
+lenovo  bjsubway  ➜ (master)  ♥ 14:25  ./target/debug/bjsubway.exe lines
+lid = "地铁1号线八通线",        lcode = "01"
+lid = "地铁2号线",      lcode = "02"
+lid = "地铁4号线大兴线",        lcode = "04"
+lid = "地铁5号线",      lcode = "05"
+lid = "地铁6号线",      lcode = "06"
+lid = "地铁7号线",      lcode = "07"
+lid = "地铁8号线",      lcode = "08"
+lid = "地铁9号线",      lcode = "09"
+lid = "地铁10号线",     lcode = "10"
+lid = "地铁11号线",     lcode = "11"
+lid = "地铁13号线",     lcode = "13"
+lid = "地铁14号线",     lcode = "14"
+lid = "地铁15号线",     lcode = "15"
+lid = "地铁16号线",     lcode = "16"
+lid = "地铁17号线",     lcode = "17"
+lid = "地铁19号线",     lcode = "19"
+lid = "房山线", lcode = "95"
+lid = "昌平线", lcode = "94"
+lid = "亦庄线", lcode = "96"
+lid = "燕房线", lcode = "92"
+lid = "S1线",   lcode = "91"
+lid = "西郊线", lcode = "89"
+lid = "首都机场线",     lcode = "98"
+lid = "大兴机场线",     lcode = "88"
+lid = "亦庄T1线",       lcode = "79"
+lenovo  bjsubway  ➜ (master)  ♥ 14:25  ./target/debug/bjsubway.exe --lcode 01 detail
+苹果园
+古城
+八角游乐园
+八宝山
+玉泉路
+五棵松
+万寿路
+公主坟
+军事博物馆
+木樨地
+南礼士路
+复兴门
+西单
+天安门西
+天安门东
+王府井
+东单
+建国门
+永安里
+国贸
+大望路
+四惠
+四惠东
+高碑店
+传媒大学
+双桥
+管庄
+八里桥
+通州北苑
+果园
+九棵树
+梨园
+临河里
+土桥
+花庄
+
+
+环球度假区
+lenovo  bjsubway  ➜ (master)  ♥ 14:25  ./target/debug/bjsubway.exe --from 天安门东 --to 沙河 find
+station: "天安门东",    lid: 地铁1号线八通线
+station: "天安门西",    lid: 地铁1号线八通线
+station: "西单",        lid: 地铁1号线八通线
+station: "西单",        lid: 地铁4号线大兴线
+station: "灵境胡同",    lid: 地铁4号线大兴线
+station: "西四",        lid: 地铁4号线大兴线
+station: "平安里",      lid: 地铁4号线大兴线
+station: "新街口",      lid: 地铁4号线大兴线
+station: "西直门",      lid: 地铁4号线大兴线
+station: "西直门",      lid: 地铁13号线
+station: "大钟寺",      lid: 地铁13号线
+station: "知春路",      lid: 地铁13号线
+station: "五道口",      lid: 地铁13号线
+station: "上地",        lid: 地铁13号线
+station: "清河站",      lid: 地铁13号线
+station: "清河站",      lid: 昌平线
+station: "西二旗",      lid: 昌平线
+station: "生命科学园",  lid: 昌平线
+station: "朱辛庄",      lid: 昌平线
+station: "巩华城",      lid: 昌平线
+station: "沙河",        lid: 昌平线
