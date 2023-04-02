@@ -17,13 +17,15 @@ Usage: bjsubway.exe [OPTIONS] [COMMAND]
 Commands:
   update
   lines
+  detail
   find
   help    Print this message or the help of the given subcommand(s)
 
 Options:
-  -f, --from <FROM>  [default: ]
-  -t, --to <TO>      [default: ]
-  -h, --help         Print help
+  -l, --lcode <LCODE>  [default: ]
+  -f, --from <FROM>    [default: ]
+  -t, --to <TO>        [default: ]
+  -h, --help           Print help
 ```
 
 See examples.txt
